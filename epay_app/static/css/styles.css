@@ -1,0 +1,72 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes up full height */
+}
+
+/* Navigation bar / Heading Menu Links  */
+.header-menu{
+    background-color: #fff3cd;
+}
+.brand-logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    
+}
+#navbarNav, a{
+    font-family: cursive;
+    font-weight: 500;
+    color: rgb(18, 91, 226);
+}
+
+/* Food Menu Items CSS */
+.foodmenu-title{
+    font-family: cursive;
+}
+.menu-item {
+    margin-bottom: 30px;
+}
+.card {
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card-img-top {
+    height: 200px; /* Adjusted height for uniformity */
+    object-fit: cover; /* Ensures the image covers the space */
+}
+.card-title {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #fff3cd; /* Light yellow background */
+    padding: 20px 0;
+    margin-top: auto; /* Push footer to the bottom */
+}
+.social-icons a {
+    margin: 0 10px;
+    color: #007bff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+.social-icons a:hover {
+    color: #0056b3;
+}
+.carousel-item {
+    height: 200px; /* Set the height of the carousel */
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover to maintain aspect ratio */          
+}
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
